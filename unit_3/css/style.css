@@ -1,13 +1,21 @@
 
 body {
 	text-align:center;
-	background:url(img src="images/beachsunset.jpg" alt="beautiful picture of the sunset in cayman" title="Cayman Sunset">);
+	background-image:url(img src="images/beachsunset.jpg" alt="beautiful picture of the sunset in cayman" title="Cayman Sunset");
+	background-color:black;
 	background-size:cover;
 	color:#fff;
 	font-family:Helvetica, sans-serif;
 }
 
 #slogan {
-
-	font-size:200px;
+font-style:italic;
+	font-size:30px;
+	color:#C0C0C0;
+}
+#slogan2 { 
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
 }
