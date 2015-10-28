@@ -1,13 +1,11 @@
 
-body {
-	text-align:center;
-	background-image:url(img src="images/beachsunset.jpg" alt="beautiful picture of the sunset in cayman" title="Cayman Sunset");
-	background-color:black;
-	background-size:cover;
-	color:#fff;
-	font-family:Helvetica, sans-serif;
+.background-overlay {
+	top: -30px;  
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
 }
-
 #slogan {
 font-style:italic;
 	font-size:30px;
@@ -18,4 +16,7 @@ font-style:italic;
     padding-right: 50px;
     padding-bottom: 25px;
     padding-left: 50px;
+}
+body {
+  background-image: url(https://raw.githubusercontent.com/bowen345/bowen345.github.io/master/unit_3/images/beachsunset.JPG);
 }
