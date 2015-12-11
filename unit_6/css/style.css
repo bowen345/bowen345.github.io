@@ -1,5 +1,5 @@
 header {
-    background-color: #FFED74;
+    background-color: #C0C0C0;
     border: 1px black solid;
     padding: 20px;
 }
@@ -12,6 +12,11 @@ aside {
     background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
+}
+img{
+    float: left;
+    width: 70%;
+    padding: 1px;
 }
  /*article {
     background-color: #E89C6C;
